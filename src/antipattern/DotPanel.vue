@@ -1,9 +1,9 @@
 <template>
   <div class="full-height">
     <div class="active-dot">
-      <h5>{{ $t('SELECTED') }}:</h5>
+      <h5>Selected:</h5>
       <div class="active-dot-name">
-        <i class="fa fa-file"></i><strong>{{ this.selectedDot.name }}</strong>
+        <i class="fa fa-file"></i><strong>{{ selectedDot.name }}</strong>
       </div>
     </div>
     <el-tabs
@@ -13,7 +13,7 @@
     >
       <el-tab-pane
         class="dependencies-list full-height"
-        :label="$t('DEPENDS_ON')"
+        label="Depends On"
         name="dependon"
         v-if="selectedDotDependsOn.length"
       >
@@ -37,7 +37,7 @@
                     <span
                       :class="highlight(weight.name) ? 'highlight' : 'lowlight'"
                       >{{
-                        `${$t(`DEPENDS.${weight.name}`)}: ${weight.value}`
+                        `${weight.name}: ${weight.value}`
                       }}</span
                     >
                   </li>
@@ -49,7 +49,7 @@
       </el-tab-pane>
       <el-tab-pane
         class="dependencies-list-tab full-height"
-        :label="$t('DEPENDS_BY')"
+        label="Depends By"
         name="dependby"
         v-if="selectedDotDependsBy.length"
       >

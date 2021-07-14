@@ -1,24 +1,24 @@
 <template>
   <div class="edge-panel">
     <div>
-      <h5>{{ $t('SELECTED') }}:</h5>
-      <h5>{{ $t('FILE_A') }}:</h5>
+      <h5>Selected:</h5>
+      <h5>A:</h5>
       <div class="active-dot-name">
-        <i class="fa fa-file"></i><strong>{{ this.source() }}</strong>
+        <i class="fa fa-file"></i><strong>{{ source() }}</strong>
       </div>
-      <h5>{{ $t('FILE_B') }}:</h5>
+      <h5>B:</h5>
       <div class="active-dot-name">
-        <i class="fa fa-file"></i><strong>{{ this.target() }}</strong>
+        <i class="fa fa-file"></i><strong>{{ target() }}</strong>
       </div>
     </div>
     <div class="depends">
-      <h5>{{ $t('DEPENDENCIES_TABLE') }}:</h5>
+      <h5>Dependencies Table:</h5>
       <el-table class="depends-table" :data="dependsData()">
-        <el-table-column prop="source" :label="$t('SOURCE')" width="80">
+        <el-table-column prop="source" label="Source" width="80">
         </el-table-column>
-        <el-table-column prop="target" :label="$t('TARGET')" width="80">
+        <el-table-column prop="target" label="Target" width="80">
         </el-table-column>
-        <el-table-column prop="depend" :label="$t('DEPEND')"> </el-table-column>
+        <el-table-column prop="depend" label="Depend"> </el-table-column>
       </el-table>
     </div>
   </div>
@@ -58,9 +58,9 @@ export default {
         .filter((weight) => this.checkedWeights.includes(weight.name))
         .map((weight) => {
           return {
-            source: this.$i18n.t('FILE_A'),
-            target: this.$i18n.t('FILE_B'),
-            depend: `${this.$i18n.t(`DEPENDS.${weight.name}`)}: ${
+            source: "A",
+            target: "B",
+            depend: `${weight.name}: ${
               weight.value
             }`,
           }
@@ -70,9 +70,9 @@ export default {
           .filter((weight) => this.checkedWeights.includes(weight.name))
           .map((weight) => {
             return {
-              source: this.$i18n.t('FILE_B'),
-              target: this.$i18n.t('FILE_A'),
-              depend: `${this.$i18n.t(`DEPENDS.${weight.name}`)}: ${
+              source: "B",
+              target: "A",
+              depend: `${weight.name}: ${
                 weight.value
               }`,
             }

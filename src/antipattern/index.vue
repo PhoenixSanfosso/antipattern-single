@@ -10,14 +10,14 @@
             v-for="weight in weights"
             :label="weight"
             :key="weight"
-            >{{ $t(`DEPENDS.${weight}`) }}</el-checkbox
+            >{{ weight }}</el-checkbox
           >
         </el-checkbox-group>
         <el-checkbox
           :indeterminate="isIndeterminate"
           v-model="checkAll"
           @change="handleCheckAllChange"
-          >{{ $t('CHECK_ALL') }}</el-checkbox
+          >Check All</el-checkbox
         >
         <el-input-number
           v-model="zoom"
@@ -28,9 +28,7 @@
           size="mini"
           class="zoom"
         ></el-input-number>
-        <el-button @click="reset" size="mini" class="reset">{{
-          $t('RESET')
-        }}</el-button>
+        <el-button @click="reset" size="mini" class="reset">Reset</el-button>
       </div>
     </el-row>
     <el-row :gutter="20" class="bottom">
@@ -40,7 +38,7 @@
       <el-col :span="6" class="full-height">
         <div class="side-pannel full-height">
           <div class="dependencies-info full-height">
-            <h5>{{ $t('DEPENDENCIES_PANEL') }}</h5>
+            <h5>Dependencies Panel</h5>
             <dot-panel
               v-if="dotIsSelected()"
               :selectedDot="selectedDot"
@@ -147,7 +145,7 @@ export default {
     },
   },
   watch: {
-    selection() {
+    selection () {
       if (this.dotIsSelected()) {
         this.selectedDot = this.selection[0]
         this.selectedDotDependsOn = this.graph.updatedselectedDotDependsOn()
@@ -164,7 +162,7 @@ export default {
 </script>
 <style scoped>
 .anti-pattern-container {
-  height: 600px;
+  height: 100%;
   width: 100%;
   margin: 10px;
 }
