@@ -1,0 +1,128 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "crossing1.clustering",
+  "structure" : [ {
+    "@type" : "group",
+    "name" : "L1",
+    "nested" : [ {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/Subscription.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/Replicator.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-common/src/main/java/org/apache/pulsar/common/protocol/Commands.java"
+    }, {
+      "@type" : "item",
+      "name" : "managed-ledger/src/main/java/org/apache/bookkeeper/mledger/impl/ManagedLedgerImpl.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-common/src/main/java/org/apache/pulsar/common/policies/data/Policies.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/persistent/PersistentReplicator.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/persistent/PersistentDispatcherMultipleConsumers.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-common/src/main/java/org/apache/pulsar/common/policies/data/TopicStats.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/persistent/DispatchRateLimiter.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/Topic.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/persistent/ReplicatedSubscriptionsController.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/AbstractTopic.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/persistent/SubscribeRateLimiter.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/persistent/PersistentSubscription.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/persistent/MessageDeduplication.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/Producer.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/BrokerService.java"
+    }, {
+      "@type" : "item",
+      "name" : "managed-ledger/src/main/java/org/apache/bookkeeper/mledger/ManagedLedger.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/Consumer.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/admin/AdminResource.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-common/src/main/java/org/apache/pulsar/common/api/proto/PulsarApi.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/ServerCnx.java"
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L2",
+    "nested" : [ {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/persistent/PersistentTopic.java"
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L3",
+    "nested" : [ {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/admin/impl/PersistentTopicsBase.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/test/java/org/apache/pulsar/client/api/SimpleProducerConsumerTest.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/test/java/org/apache/pulsar/broker/service/BrokerServiceTest.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/test/java/org/apache/pulsar/client/impl/MessagePublishThrottlingTest.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/test/java/org/apache/pulsar/broker/service/PersistentTopicConcurrentTest.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/test/java/org/apache/pulsar/broker/service/PersistentDispatcherFailoverConsumerTest.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/test/java/org/apache/pulsar/broker/service/PersistentTopicTest.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/admin/impl/NamespacesBase.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/test/java/org/apache/pulsar/broker/service/persistent/MessageDuplicationTest.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/test/java/org/apache/pulsar/broker/service/ServerCnxTest.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/test/java/org/apache/pulsar/broker/service/PersistentTopicE2ETest.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/test/java/org/apache/pulsar/client/api/MessageDispatchThrottlingTest.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/stats/prometheus/NamespaceStatsAggregator.java"
+    }, {
+      "@type" : "item",
+      "name" : "pulsar-broker/src/main/java/org/apache/pulsar/broker/service/persistent/PersistentDispatcherSingleActiveConsumer.java"
+    } ]
+  } ]
+}

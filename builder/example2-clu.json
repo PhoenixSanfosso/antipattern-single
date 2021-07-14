@@ -1,0 +1,2034 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "Clique1",
+  "structure" : [ {
+    "@type" : "group",
+    "name" : "L1",
+    "nested" : [ {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikipedia/WikipediaWebViewClient.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/data/WikivoyageSearchHistoryItem.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/base/BasicProgressAsyncTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/GPXDatabase.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/SQLiteTileSource.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/ColorDialogs.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/OpenstreetmapsDbHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/OpenstreetmapPoint.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/EditPoiData.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/ScrollHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/ExitActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/access/AccessibilityAssistant.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/dialogs/PoiTypeDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/ui/ImagesPagerAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/api/SQLiteAPIImpl.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/api/SettingsAPIImpl.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/GpxDbHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/HuaweiDrmHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/OsmAndTaskManager.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/dialogs/PoiSubTypeDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/DownloadService.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/notifications/OsmandNotification.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/notifications/NotificationDismissReceiver.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/DatabaseHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/OsmAndMapSurfaceView.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/YandexTrafficAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/MapTileAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapillary/MapillaryRasterLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/OpenstreetmapLocalUtil.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/aidl/OsmandAidlService.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/aidl/OsmandAidlServiceV2.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/NavAddDestinationAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/AddOSMBugAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/NavDirectionsFromAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/NavReplaceDestinationAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/NavAddFirstIntermediateAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/QuickActionType.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/QuickAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/NewAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/NavResumePauseAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/GeocodingLookupService.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/base/OsmAndListFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/ShowHideOSMBugAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/NavAutoZoomMapAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/WikivoyageUtils.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/ShowHideFavoritesAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/AnimateDraggingMapThread.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/NavVoiceAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/search/WikivoyageSearchHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/data/TravelDbHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/HelpArticleDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/DialogsAndNotificationsSettingsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/srtmplugin/TerrainAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/measurementtool/RecyclerViewFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/DayNightHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dashboard/tools/TransactionBuilder.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dashboard/tools/DashFragmentData.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dashboard/DashBaseFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/srtmplugin/ContourLinesAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/core/android/MapRendererContext.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/render/RendererRegistry.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/XMasDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/preferences/MultiSelectBooleanPreference.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/api/AudioFocusHelperImpl.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dashboard/DashDashboardOrDrawerFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/DayNightModeAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/OnNavigationServiceAlarmReceiver.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/NavigationService.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/MapDuringNavigationFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/preferences/ListPreferenceEx.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/base/ContextMenuFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/base/BaseOsmAndFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/MultiTouchSupport.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/corenative/NativeCoreContext.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/AppVersionUpgradeOnInit.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/UploadGPXFilesTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/OpenstreetmapRemoteUtil.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/WhatsNewDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/UploadOpenstreetmapPointAsyncTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/OsmBugsRemoteUtil.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/actions/ShareDialog.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/inapp/InAppPurchases.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/AnalyticsHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/AndroidNetworkUtils.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/Version.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/inapp/InAppPurchaseHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/liveupdates/CountrySelectionFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/WikiBaseDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikipedia/WikiArticleBaseDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/liveupdates/ReportsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/liveupdates/UsersReportFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/base/BaseOsmAndDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/builders/cards/ProgressCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/builders/cards/AbstractCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/adapters/MapMarkersItemTouchHelperCallback.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dashboard/tools/DashboardSettingsDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/SubCategoriesAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/base/OsmandExpandableListFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/ActionBarPreferenceActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/DialogListItemAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/ScreenAlertsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/OsmandBaseExpandableListAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/search/SearchRecyclerViewAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/development/DashSimulateFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/other/HorizontalSelectionAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/explore/SavedArticlesRvAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/base/bottomsheetmenu/BottomSheetItemWithCompoundButton.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/adapters/TracksGroupsAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/adapters/FavouritesGroupsAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/adapters/GroupsAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/myplaces/GpxDescriptionDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/FileUtils.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/SecondSplashScreenFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/AndroidUtils.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/base/bottomsheetmenu/BottomSheetItemTwoChoicesButton.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/DirectionDrawable.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/mapwidgets/TextInfoWidget.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/OsmEditsAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dashboard/DashSearchFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/LiveMonitoringFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapillary/MapillaryAutoCompleteAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/BaseMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dashboard/DashLocationFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/WikivoyageShowPicturesDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/OptionsBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/base/BottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/DirectionIndicationDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/PublicTransportNotFoundWarningCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/PublicTransportNotFoundSettingsWarningCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/WarningCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/SimpleRouteCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/BaseCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/SelectionMarkersGroupBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/PlanRouteOptionsBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/measurementtool/OptionsBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/CrashBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/DislikeOsmAndBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/HistoryMarkerMenuBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/OsmEditOptionsBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/CoordinateInputBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/SendSearchQueryBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/SelectMapStyleBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/PrivacyAndSecurityActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/OsmandListActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/ActionBarProgressActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dashboard/DashErrorFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/PrintDialogActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/ContributionVersionActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/development/LogcatActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/OsmandActionBarActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/OsmandInAppPurchaseActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/liveupdates/OsmLiveRestartBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapsource/MercatorProjectionBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikipedia/WikipediaOptionsBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/AddGroupBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/article/WikivoyageArticleContentsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/ImportGpxBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/SortByMenuBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/measurementtool/SaveAsNewTrackBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapsource/TileStorageFormatBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/profiles/AppModesBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/PluginDisabledBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/explore/WikivoyageOptionsBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/base/MenuBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/explore/travelcards/HeaderTravelCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/explore/travelcards/BaseTravelCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/profiles/AppProfileArrayAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/ConfirmationBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/UiUtilities.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/adapters/MapMarkersHistoryAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/MarkerAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routing/AlarmInfo.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/data/WptLocationPoint.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/MenuTitleController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/data/PointDescription.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/measurementtool/adapter/MeasurementToolAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/MapMarkerDialogHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/TransportStopRouteAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/transport/TransportStopRoute.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/adapters/MapMarkersActiveAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/other/ShareMenuFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/other/ShareMenu.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/PedestrianRouteCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routing/RouteDirectionInfo.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/OsmAndFormatter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/profiles/SelectProfileMenuAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/profiles/SelectCopyAppModeBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/profiles/SelectCopyProfilesMenuAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/bottomsheets/VehicleParametersBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/bottomsheets/EditTextPreferenceBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/bottomsheets/SelectFolderBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/bottomsheets/BasePreferenceBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/actions/AppModeDialog.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/profiles/ConfigureAppModesBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/profiles/ConfigureProfileMenuAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/profiles/SelectAppModesBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/HelpActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikipedia/SelectWikiLanguagesBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/DownloadTilesDialog.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/resources/IncrementalChangesManager.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/resources/GeometryTilesCache.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/resources/BitmapTilesCache.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/resources/TilesCache.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/resources/AsyncLoadingThread.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/FileNameTranslationHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/CityItem.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/DownloadOsmandIndexesHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/explore/travelcards/TravelNeededMapsCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/AbstractDownloadActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/ui/DownloadMapToolbarController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/DownloadValidationManager.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/explore/travelcards/TravelDownloadUpdateCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/PluginInstalledBottomSheetDialog.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/DownloadIndexesThread.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/DownloadFileHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/DownloadActivityType.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/CustomRegion.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/CustomIndexItem.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/IndexItem.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/DownloadResourceGroup.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/DownloadResources.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/resources/RegionAddressRepositoryBinary.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/liveupdates/LiveUpdatesHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/liveupdates/LiveUpdatesAlarmReceiver.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/liveupdates/PerformLiveUpdateAsyncTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/TransportStopsLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/PointLocationLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/OsmEditsUploadListenerHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/dialogs/SendPoiDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/OsmBugsLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/MapTextLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/AidlMapLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/DoubleTapScaleDetector.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/OsmAndMapLayersView.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/OsmandMapLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/render/MapVectorLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/core/android/TileSourceProxyProvider.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/resources/ResourceManager.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/resources/AmenityIndexRepositoryBinary.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/EditPOIFilterActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/MapMarkersDbHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/SearchHistoryHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/poi/NominatimPoiFilter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/poi/SearchByNameFilter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/poi/PoiUIFilter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/poi/RearrangePoiFiltersFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/poi/PoiFiltersHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikipedia/WikipediaPoiMenu.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/ContextMenuItem.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/AdditionalActionsBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/ShowHidePoiAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/srtmplugin/TerrainFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/ContextMenuAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/bottomsheets/ScreenTimeoutBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/bottomsheets/BooleanPreferenceBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/TurnScreenOnFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/bottomsheets/WakeTimeBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapsource/ExpireTimeBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/RasterMapMenu.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/rastermaps/MapOverlayAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/rastermaps/MapUnderlayAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/rastermaps/MapSourceAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/rastermaps/OsmandRasterMapsPlugin.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapsource/EditMapSourceDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapsource/InputZoomLevelsBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/ImportedSettingsItemsAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/ExportImportSettingsAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/PreviousRouteCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/IntermediatePointsDialog.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/other/DestinationReachedMenu.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/other/DestinationReachedMenuFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dashboard/DashWaypointsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/DirectionsDialogs.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/AddWaypointBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/TracksCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/TargetPointsHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routing/RouteProvider.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/measurementtool/command/MeasurementCommandManager.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/measurementtool/command/MeasurementModeCommand.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/measurementtool/command/RemovePointCommand.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/measurementtool/SelectedPointBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/measurementtool/command/ReorderPointCommand.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/measurementtool/command/MovePointCommand.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/measurementtool/command/AddPointCommand.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/measurementtool/command/ClearPointsCommand.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/measurementtool/MeasurementToolLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/measurementtool/MeasurementEditingContext.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/bottomsheets/ChangeGeneralProfilesPrefBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/OsmNotesMenu.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/NavStartStopAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/openseamapsplugin/NauticalMapsPlugin.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/RulerControlLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapillary/MapillaryInstallDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapillary/MapillaryVectorLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/builders/cards/NoImagesCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapillary/MapillaryFiltersFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapillary/MapillaryPlugin.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/mapwidgets/MapWidgetRegistry.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/skimapsplugin/SkiMapsPlugin.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/CurrentPositionHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/bottomsheets/MultiSelectPreferencesBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/bottomsheets/SingleSelectPreferenceBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/access/AccessibilitySettingsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/bottomsheets/ResetProfilePrefsBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/DuplicatesSettingsAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/backend/ApplicationMode.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/measurementtool/SnapToRoadBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/backend/OsmandSettings.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/CoordinateInputActionsBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/adapters/CoordinateInputAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/POIMapLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/RouteLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/PublicTransportCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routing/TransportRoutingHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/voice/CommandBuilder.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/voice/JSCommandBuilder.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routing/data/StreetName.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/voice/JSTTSCommandPlayerImpl.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/voice/JSMediaCommandPlayerImpl.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/voice/MediaCommandPlayerImpl.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/voice/AbstractPrologCommandPlayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/chooseplan/ChoosePlanWikipediaDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/chooseplan/ChoosePlanOsmLiveBannerDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/chooseplan/ChoosePlanHillshadeSrtmDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/PluginActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/chooseplan/OsmLiveCancelledDialog.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dashboard/DashPluginsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/chooseplan/ChoosePlanFreeBannerDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/explore/travelcards/OpenBetaTravelCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/chooseplan/ChoosePlanSeaDepthMapsDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/chooseplan/ChoosePlanDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/liveupdates/SubscriptionFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/liveupdates/OsmLiveActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/liveupdates/LiveUpdatesSettingsDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/liveupdates/LiveUpdatesFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/LocalIndexInfo.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/LocalIndexHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dashboard/DashChooseAppDirFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/ui/DataStoragePlaceDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/ui/UpdatesIndexFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/ui/ActiveDownloadsDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/ui/ItemViewHolder.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/ui/LocalIndexesFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/notifications/DownloadNotification.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/access/AccessibilityPlugin.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/access/SettingsAccessibilityActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/development/SettingsDevelopmentActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/ShowHideTransportLinesAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/DetailsBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/transport/TransportLinesMenu.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/RoutingOptionsHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/bottomsheets/OsmLoginDataBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/SettingsOsmEditingActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/SettingsBaseActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/actions/OsmAndAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/actions/StartGPSStatus.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/actions/OsmAndDialogs.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/other/RoutePreferencesMenu.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/VehicleParametersFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/SettingsNavigationActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/firstusage/FirstUsageWelcomeFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/firstusage/FirstUsageWizardFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/ui/DownloadResourceGroupAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/ui/DownloadGroupViewHolder.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/ui/SearchDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/DownloadActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/ui/DownloadResourceGroupFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/download/ui/DownloadItemFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/CoordinatesFormatFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/PublicTransportBetaWarningCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikipedia/WikipediaArticleWikiLinkFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/explore/travelcards/StartEditingTravelCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikipedia/WikipediaDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/development/OsmandDevelopmentPlugin.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/development/DevelopmentSettingsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/development/TestVoiceActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/voice/TTSCommandPlayerImpl.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/LockHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routing/VoiceRouter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/WaypointHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/other/FavouritesAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/FavoritesSearchFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/monitoring/MonitoringSettingsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/OsmEditingFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/myplaces/FavoritesActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/EditFavoriteGroupDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/FavoritesTreeFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/base/FavoriteImageDrawable.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dashboard/DashFavoritesFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/data/FavouritePoint.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/parkingpoint/ParkingAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/parkingpoint/DashParkingFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/parkingpoint/ParkingPositionPlugin.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/parkingpoint/ParkingTypeBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/FavouritesDbHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/notifications/GpxNotification.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/monitoring/SettingsMonitoringActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/GpxTrackAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/SavingTrackHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/myplaces/TrackBitmapDrawer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/SelectGpxTrackBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/IntentHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/DiscountHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/QuickSearchHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/RouteStatisticCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/monitoring/OnSaveCurrentTrackFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/ShowHideGpxTracksAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/AddTracksGroupBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/SelectWptCategoriesBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/GpxSelectionHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/MapMarkerSelectionFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/OrderByBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/AddFavouritesGroupBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/MapMarkersHistoryFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/MapMarkersHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/MarkersPlanRouteContext.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/NavigatePointFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dashboard/DashRecentsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/HistoryCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/listitems/QuickSearchBottomShadowListItem.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/listitems/QuickSearchButtonListItem.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/listitems/QuickSearchHeaderListItem.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/listitems/QuickSearchTopShadowListItem.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/listitems/QuickSearchSelectAllListItem.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/QuickSearchListAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/listitems/QuickSearchMoreListItem.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/listitems/QuickSearchListItem.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/search/SearchHistoryFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/search/SearchStreet2ByNameActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/search/SearchBuildingByNameActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/search/SearchAddressActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/search/SearchAddressFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/search/SearchRegionByNameActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/search/SearchCityByNameActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/search/SearchStreetByNameActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/search/SearchByNameAbstractActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/FavoriteAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/editors/SelectCategoryDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/GPXAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/editors/EditCategoryDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/editors/WptPtEditor.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/editors/WptPtEditorFragmentNew.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/editors/RtePtEditor.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/editors/RtePtEditorFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/editors/WptPtEditorFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/editors/PointEditorFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/editors/PointEditor.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/editors/PointEditorFragmentNew.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/editors/FavoritePointEditor.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/editors/FavoritePointEditorFragmentNew.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/FavoriteDialogs.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/FavoritesListActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/FavoritesListFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/search/SearchActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/search/SearchPoiFilterFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/search/SearchPOIActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/access/NavigationInfo.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routing/RouteCalculationResult.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/MapRouteInfoMenuFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/AvoidRoadsBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/RouteParametersFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/bottomsheets/RecalculateRouteInDeviationBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dashboard/DashNavigationFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/notifications/ErrorNotification.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routing/RoutingHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/RouteOptionsBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/ShowAlongTheRouteBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/WaypointDialogHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/HomeWorkCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/LongDistanceWarningCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/AddPointBottomSheetDialog.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/other/FavouritesBottomSheetMenuFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/MapMarkersCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/GeneralProfileSettingsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/mapwidgets/NextTurnInfoWidget.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/mapwidgets/RouteInfoWidgetsFactory.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/base/FailSafeFuntions.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/ProxySettingsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/SettingsGeneralActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/base/MapViewTrackingUtilities.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/OsmAndLocationProvider.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/OsmAndLocationSimulation.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/monitoring/DashTrackFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/RouteInfoCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/GpxUiHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/ConfigureMapMenu.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/SettingsActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/RearrangeMenuItemsAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/ConfigureMenuItemsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/ConfigureMenuRootFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/PluginsActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/ExportProfileBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/backend/SettingsHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/CustomOsmandPlugin.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/AvoidSpecificRoads.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/ExportOptionsBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/FileTypeBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/DashOsmEditsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/OsmEditsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/AdvancedEditPoiFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/dialogs/OpeningHoursDaysDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/dialogs/OpeningHoursHoursDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/BasicEditPoiFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/EditPoiDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/OsmEditsLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/GPXLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/access/MapAccessibilityActions.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/WikivoyageWebViewClient.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/adapters/MapMarkersGroupsAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/explore/ExploreTabFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/explore/ExploreRvAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/explore/travelcards/ArticleTravelCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/explore/SavedArticlesTabFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/article/WikivoyageArticleNavigationFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/article/WikivoyageArticleDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/myplaces/SplitSegmentDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/myplaces/EditTrackGroupDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/myplaces/TrackActivityFragmentAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/myplaces/TrackPointFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/SaveAsTrackBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/CoordinateInputDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/myplaces/TrackSegmentFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/TrackActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/AddGpxPointBottomSheetHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/PointNavigationLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/MoveMarkerBottomSheetHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/FavouritesLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/ImpassableRoadsLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/other/MapMultiSelectionMenuFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/other/MultiSelectionArrayAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/DownloadedRegionsLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/other/MapMultiSelectionMenu.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/ContextMenuLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/MapQuickActionLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/QuickActionsWidget.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/AddPOIAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/CreateEditActionDialog.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/SelectMapViewQuickActionsBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/MapStyleAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/SwitchableAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/QuickActionListFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/AddQuickActionDialog.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/QuickActionRegistry.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/quickaction/actions/SwitchProfileAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/profiles/SelectMultipleProfilesBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/NavigationFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/ConfigureProfileFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/ProfileAppearanceFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/profiles/SelectProfileBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/MainSettingsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/ImportHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/ImportSettingsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/ImportDuplicatesFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/ImportCompleteFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/QuickSearchSubCategoriesFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/QuickSearchCustomPoiFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/QuickSearchPoiFilterFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/QuickSearchListFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/QuickSearchCoordinatesFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/search/QuickSearchDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/measurementtool/MeasurementToolFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/mapwidgets/MapInfoWidgetsFactory.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/render/MapRenderRepositories.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/backend/OsmAndAppCustomization.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/aidl/ConnectedApp.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/MapMarkersGroupsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/MapActivityLayers.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/MapMarkersActiveFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/MapMarkersLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/mapwidgets/MapMarkersWidgetsFactory.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/MapMarkersDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapmarkers/PlanRouteFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/MapControlsLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/other/TrackDetailsMenuFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/other/TrackDetailsMenu.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/TakePhotoNoteAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/AudioNotesLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/TakeAudioNoteAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/TakeVideoNoteAction.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/MultimediaNotesFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/AudioVideoNoteRecordingMenu.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/ItemMenuBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/SettingsAudioVideoActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/DashAudioVideoNotesFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/adapters/NotesAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/NotesFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/AudioVideoNoteRecordingMenuFullScreenFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/AudioVideoNoteRecordingMenuFullScreen.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/AudioVideoNotesPlugin.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/MapInfoLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/aidl/OsmandAidlApi.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/helpers/ExternalApiHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/editors/FavoritePointEditorFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/editors/MapMarkerEditor.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/editors/MapMarkerEditorFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/controllers/GpxItemMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/builders/GpxItemMenuBuilder.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/controllers/ImpassibleRoadsMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/controllers/TargetPointMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/builders/cards/dialogs/ContextMenuCardDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/builders/cards/dialogs/ContextMenuCardDialog.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapillary/MapillaryMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapillary/MapillaryImageDialog.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/builders/cards/CardsRowBuilder.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/builders/WptPtMenuBuilder.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/PlainMenuItem.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/CollapsableView.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/parkingpoint/ParkingPositionMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/AudioVideoNoteMenuBuilder.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/controllers/MyLocationMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/controllers/TransportRouteController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/OsmBugMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/controllers/HistoryMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/controllers/MapMarkerMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/audionotes/AudioVideoNoteMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/controllers/PointDescriptionMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/controllers/FavouritePointMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/builders/FavouritePointMenuBuilder.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/builders/TransportStopMenuBuilder.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/builders/AmenityMenuBuilder.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/menu/WikivoyageWptPtMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/controllers/WptPtMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/menu/WikivoyageWptPtMenuBuilder.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapillary/MapillaryContributeCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/builders/cards/UrlImageCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapillary/MapillaryImageCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/builders/cards/ImageCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/controllers/MapDataMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/builders/MapDataMenuBuilder.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/controllers/AMapPointMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/EditPOIMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/EditPOIMenuBuilder.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/MenuBuilder.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/MapContextMenu.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/MapContextMenuFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/controllers/TransportStopController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/controllers/AmenityMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/MenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/mapcontextmenu/controllers/RenderedObjectMenuController.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/osmedit/OsmEditingPlugin.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/myplaces/AvailableGPXFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/monitoring/OsmandMonitoringPlugin.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/monitoring/LiveMonitoringHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/OsmandPlugin.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dashboard/DashboardOnMap.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/srtmplugin/ContourLinesMenu.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/srtmplugin/SRTMPlugin.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/srtmplugin/TerrainLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/MapTileLayer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/views/OsmandMapTileView.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/OsmandApplication.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/RateUsBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/dialogs/SendAnalyticsBottomSheetDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/AppInitializer.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/NotificationHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/notifications/NavigationNotification.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/MapActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/GlobalSettingsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/DataStorageHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/DataStorageFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/bottomsheets/ChangeDataStorageBottomSheet.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/BaseSettingsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/settings/fragments/VoiceAnnouncesFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/WaypointsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/MapRouteInfoMenu.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/cards/RouteDirectionsCard.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/RouteDetailsFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/routepreparationmenu/ChooseRouteFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/activities/MapActivityActions.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/WikivoyageWelcomeDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/explore/WikivoyageExploreActivity.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/search/WikivoyageSearchDialogFragment.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/data/TravelLocalDataHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikipedia/WikiArticleHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "OsmAnd/src/net/osmand/plus/wikivoyage/article/WikivoyageArticleWikiLinkFragment.java"
+    } ]
+  } ]
+}

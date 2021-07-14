@@ -1,0 +1,611 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "UnhealthyInheritance1",
+  "structure" : [ {
+    "@type" : "group",
+    "name" : "L1",
+    "nested" : [ {
+      "@type" : "item",
+      "name" : "nifi-api/src/main/java/org/apache/nifi/context/PropertyContext.java"
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L2",
+    "nested" : [ {
+      "@type" : "item",
+      "name" : "nifi-api/src/main/java/org/apache/nifi/controller/ConfigurationContext.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-api/src/main/java/org/apache/nifi/reporting/ReportingContext.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-api/src/main/java/org/apache/nifi/components/ValidationContext.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-framework-api/src/main/java/org/apache/nifi/components/state/StateProviderInitializationContext.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-api/src/main/java/org/apache/nifi/processor/ProcessContext.java"
+    } ]
+  }, {
+    "@type" : "group",
+    "name" : "L3",
+    "nested" : [ {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/ReplaceTextWithMapping.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-atlas-bundle/nifi-atlas-reporting-task/src/test/java/org/apache/nifi/atlas/reporting/TestReportLineageToAtlas.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-reporting-tasks/src/main/java/org/apache/nifi/controller/ControllerStatusReportingTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kafka-bundle/nifi-kafka-0-9-processors/src/main/java/org/apache/nifi/processors/kafka/pubsub/KafkaProcessorUtils.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-hbase-bundle/nifi-hbase-processors/src/main/java/org/apache/nifi/hbase/GetHBase.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/TailFile.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/MergeContent.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/EvaluateXQuery.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-hadoop-bundle/nifi-hdfs-processors/src/main/java/org/apache/nifi/processors/hadoop/GetHDFSFileInfo.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-prometheus-bundle/nifi-prometheus-reporting-task/src/main/java/org/apache/nifi/reporting/prometheus/PrometheusRecordSink.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-lumberjack-bundle/nifi-lumberjack-processors/src/main/java/org/apache/nifi/processors/lumberjack/ListenLumberjack.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-extension-utils/nifi-processor-utils/src/main/java/org/apache/nifi/processor/util/list/ListedEntityTracker.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-mongodb-bundle/nifi-mongodb-processors/src/main/java/org/apache/nifi/processors/mongodb/AbstractMongoProcessor.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-services/nifi-dbcp-service-bundle/nifi-dbcp-service/src/main/java/org/apache/nifi/dbcp/DBCPConnectionPool.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kafka-bundle/nifi-kafka-1-0-processors/src/main/java/org/apache/nifi/processors/kafka/pubsub/PublishKafkaRecord_1_0.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-hadoop-bundle/nifi-hdfs-processors/src/main/java/org/apache/nifi/processors/hadoop/GetHDFS.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-redis-bundle/nifi-redis-extensions/src/main/java/org/apache/nifi/redis/state/RedisStateProvider.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/ListFile.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kafka-bundle/nifi-kafka-1-0-processors/src/main/java/org/apache/nifi/processors/kafka/pubsub/KafkaProcessorUtils.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-extension-utils/nifi-record-utils/nifi-avro-record-utils/src/main/java/org/apache/nifi/serialization/SchemaRegistryService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kafka-bundle/nifi-kafka-2-0-processors/src/main/java/org/apache/nifi/record/sink/kafka/KafkaRecordSink_2_0.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-ambari-bundle/nifi-ambari-reporting-task/src/main/java/org/apache/nifi/reporting/ambari/AmbariReportingTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-prometheus-bundle/nifi-prometheus-reporting-task/src/main/java/org/apache/nifi/reporting/prometheus/PrometheusReportingTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-accumulo-bundle/nifi-accumulo-processors/src/main/java/org/apache/nifi/accumulo/processors/ScanAccumulo.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-api/src/main/java/org/apache/nifi/components/AbstractConfigurableComponent.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-azure-bundle/nifi-azure-processors/src/main/java/org/apache/nifi/services/azure/storage/AzureStorageCredentialsControllerService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-reporting-tasks/src/main/java/org/apache/nifi/reporting/ganglia/StandardGangliaReporter.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-site-to-site-reporting-bundle/nifi-site-to-site-reporting-task/src/test/java/org/apache/nifi/reporting/sink/TestSiteToSiteReportingRecordSink.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/SplitContent.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/LookupRecord.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-social-media-bundle/nifi-twitter-processors/src/main/java/org/apache/nifi/processors/twitter/GetTwitter.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-aws-bundle/nifi-aws-processors/src/main/java/org/apache/nifi/processors/aws/cloudwatch/PutCloudWatchMetric.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-prometheus-bundle/nifi-prometheus-reporting-task/src/test/java/org/apache/nifi/reporting/prometheus/TestPrometheusRecordSink.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-atlas-bundle/nifi-atlas-reporting-task/src/test/java/org/apache/nifi/atlas/resolver/TestRegexClusterResolver.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-services/nifi-dbcp-service-bundle/nifi-dbcp-service/src/main/java/org/apache/nifi/record/sink/db/DatabaseRecordSink.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-hive-bundle/nifi-hive3-processors/src/main/java/org/apache/nifi/dbcp/hive/Hive3ConnectionPool.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-solr-bundle/nifi-solr-processors/src/main/java/org/apache/nifi/processors/solr/GetSolr.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-hive-bundle/nifi-hive_1_1-processors/src/main/java/org/apache/nifi/dbcp/hive/Hive_1_1ConnectionPool.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-framework-core/src/test/java/org/apache/nifi/integration/processors/UpdateAttributeNoEL.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/PostHTTP.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-websocket-bundle/nifi-websocket-services-jetty/src/test/java/org/apache/nifi/websocket/jetty/ControllerServiceTestContext.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-mqtt-bundle/nifi-mqtt-processors/src/main/java/org/apache/nifi/processors/mqtt/common/AbstractMQTTProcessor.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-update-attribute-bundle/nifi-update-attribute-processor/src/main/java/org/apache/nifi/processors/attributes/UpdateAttribute.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-registry-bundle/nifi-registry-service/src/test/java/org/apache/nifi/schemaregistry/services/TestAvroSchemaRegistry.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-hbase-bundle/nifi-hbase-processors/src/main/java/org/apache/nifi/hbase/PutHBaseJSON.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-atlas-bundle/nifi-atlas-reporting-task/src/test/java/org/apache/nifi/atlas/reporting/ITReportLineageToAtlas.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-couchbase-bundle/nifi-couchbase-processors/src/main/java/org/apache/nifi/couchbase/CouchbaseClusterService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-easyrules-bundle/nifi-easyrules-service/src/main/java/org/apache/nifi/rules/engine/EasyRulesEngineService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kafka-bundle/nifi-kafka-1-0-processors/src/test/java/org/apache/nifi/record/sink/kafka/TestKafkaRecordSink_1_0.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-extension-utils/nifi-hadoop-utils/src/main/java/org/apache/nifi/processors/hadoop/AbstractHadoopProcessor.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/ExecuteStreamCommand.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/ExtractGrok.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-services/nifi-distributed-cache-services-bundle/nifi-distributed-cache-client-service/src/main/java/org/apache/nifi/distributed/cache/client/DistributedMapCacheClientService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/SplitJson.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/FetchDistributedMapCache.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-accumulo-bundle/nifi-accumulo-processors/src/main/java/org/apache/nifi/accumulo/processors/PutAccumuloRecord.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/PutSQL.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/ListenTCPRecord.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/ListenUDPRecord.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-site-to-site-reporting-bundle/nifi-site-to-site-reporting-task/src/main/java/org/apache/nifi/reporting/SiteToSiteBulletinReportingTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-azure-bundle/nifi-azure-processors/src/main/java/org/apache/nifi/processors/azure/eventhub/ConsumeAzureEventHub.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-splunk-bundle/nifi-splunk-processors/src/main/java/org/apache/nifi/processors/splunk/PutSplunk.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/EncryptContent.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-sql-reporting-bundle/nifi-sql-reporting-tasks/src/test/java/org/apache/nifi/reporting/sql/TestMetricsEventReportingTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-hive-bundle/nifi-hive3-processors/src/main/java/org/apache/nifi/processors/hive/PutHive3Streaming.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-extension-utils/nifi-processor-utils/src/main/java/org/apache/nifi/processor/util/list/AbstractListProcessor.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/SplitText.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/EvaluateJsonPath.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-services/nifi-distributed-cache-services-bundle/nifi-distributed-cache-client-service/src/main/java/org/apache/nifi/distributed/cache/client/DistributedSetCacheClientService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-framework-core/src/test/java/org/apache/nifi/integration/processors/UpdateAttributeCreateOwnProperty.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-services/nifi-record-serialization-services-bundle/nifi-record-serialization-services/src/main/java/org/apache/nifi/csv/CSVRecordSetWriter.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-scripting-bundle/nifi-scripting-processors/src/main/java/org/apache/nifi/script/impl/ValidationContextAdapter.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/FetchFile.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-services/nifi-lookup-services-bundle/nifi-lookup-services/src/main/java/org/apache/nifi/lookup/RestLookupService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-ambari-bundle/nifi-ambari-reporting-task/src/test/java/org/apache/nifi/reporting/ambari/TestAmbariReportingTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-jolt-record-bundle/nifi-jolt-record-processors/src/main/java/org/apache/nifi/processors/jolt/record/JoltTransformRecord.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-elasticsearch-bundle/nifi-elasticsearch-processors/src/main/java/org/apache/nifi/processors/elasticsearch/AbstractElasticsearchHttpProcessor.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-framework-core/src/test/java/org/apache/nifi/integration/processors/UpdateAttributeWithEL.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-jms-bundle/nifi-jms-processors/src/main/java/org/apache/nifi/jms/processors/ConsumeJMS.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/TransformXml.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-solr-bundle/nifi-solr-processors/src/main/java/org/apache/nifi/processors/solr/SolrProcessor.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-snmp-bundle/nifi-snmp-processors/src/main/java/org/apache/nifi/snmp/processors/AbstractSNMPProcessor.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/ForkRecord.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-scripting-bundle/nifi-scripting-processors/src/main/java/org/apache/nifi/processors/script/InvokeScriptedProcessor.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-jms-bundle/nifi-jms-processors/src/main/java/org/apache/nifi/jms/cf/JMSConnectionFactoryProvider.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-aws-bundle/nifi-aws-processors/src/main/java/org/apache/nifi/processors/aws/s3/ListS3.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/GenerateFlowFile.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-aws-bundle/nifi-aws-processors/src/main/java/org/apache/nifi/processors/aws/credentials/provider/service/AWSCredentialsProviderControllerService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kite-bundle/nifi-kite-processors/src/main/java/org/apache/nifi/processors/kite/AbstractKiteProcessor.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-framework-core-api/src/main/java/org/apache/nifi/controller/AbstractComponentNode.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/EvaluateXPath.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-beats-bundle/nifi-beats-processors/src/main/java/org/apache/nifi/processors/beats/ListenBeats.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-extension-utils/nifi-record-utils/nifi-avro-record-utils/src/main/java/org/apache/nifi/serialization/SchemaRegistryRecordSetWriter.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/ExtractText.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-mqtt-bundle/nifi-mqtt-processors/src/main/java/org/apache/nifi/processors/mqtt/ConsumeMQTT.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/RouteText.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-scripting-bundle/nifi-scripting-processors/src/test/java/org/apache/nifi/rules/engine/script/ScriptedRulesEngineTest.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-rules-action-handler-bundle/nifi-rules-action-handler-service/src/test/java/org/apache/nifi/rules/handlers/TestAlertHandler.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-solr-bundle/nifi-solr-processors/src/main/java/org/apache/nifi/processors/solr/QuerySolr.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-cassandra-bundle/nifi-cassandra-processors/src/main/java/org/apache/nifi/processors/cassandra/AbstractCassandraProcessor.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-services/nifi-record-serialization-services-bundle/nifi-record-serialization-services/src/main/java/org/apache/nifi/json/JsonPathReader.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/util/FTPTransfer.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kafka-bundle/nifi-kafka-0-11-processors/src/main/java/org/apache/nifi/processors/kafka/pubsub/PublishKafkaRecord_0_11.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-splunk-bundle/nifi-splunk-processors/src/main/java/org/apache/nifi/processors/splunk/GetSplunk.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-scripting-bundle/nifi-scripting-processors/src/test/java/org/apache/nifi/rules/handlers/script/ScriptedActionHandlerTest.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/AbstractDatabaseFetchProcessor.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/GenerateTableFetch.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-site-to-site-reporting-bundle/nifi-site-to-site-reporting-task/src/test/java/org/apache/nifi/reporting/TestSiteToSiteMetricsReportingTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/EnforceOrder.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-datadog-bundle/nifi-datadog-reporting-task/src/test/java/org/apache/nifi/reporting/datadog/TestDataDogReportingTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kafka-bundle/nifi-kafka-0-10-processors/src/main/java/org/apache/nifi/processors/kafka/pubsub/KafkaProcessorUtils.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-mongodb-bundle/nifi-mongodb-processors/src/main/java/org/apache/nifi/processors/mongodb/GetMongo.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-site-to-site-reporting-bundle/nifi-site-to-site-reporting-task/src/main/java/org/apache/nifi/reporting/SiteToSiteMetricsReportingTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-language-translation-bundle/nifi-yandex-processors/src/main/java/org/apache/nifi/processors/yandex/YandexTranslate.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kafka-bundle/nifi-kafka-0-11-processors/src/main/java/org/apache/nifi/processors/kafka/pubsub/PublishKafka_0_11.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-services/nifi-hbase_1_1_2-client-service-bundle/nifi-hbase_1_1_2-client-service/src/main/java/org/apache/nifi/hbase/HBase_1_1_2_ClientService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-groovyx-bundle/nifi-groovyx-processors/src/main/java/org/apache/nifi/processors/groovyx/ExecuteGroovyScript.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/ControlRate.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/LookupAttribute.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kafka-bundle/nifi-kafka-2-0-processors/src/main/java/org/apache/nifi/processors/kafka/pubsub/PublishKafka_2_0.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-hadoop-bundle/nifi-hdfs-processors/src/main/java/org/apache/nifi/processors/hadoop/ListHDFS.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-rules-action-handler-bundle/nifi-rules-action-handler-service/src/main/java/org/apache/nifi/rules/handlers/AlertHandler.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/ListenSyslog.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-solr-bundle/nifi-solr-processors/src/main/java/org/apache/nifi/processors/solr/SolrUtils.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/ValidateRecord.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-extension-utils/nifi-service-utils/src/main/java/org/apache/nifi/service/lookup/AbstractSingleAttributeBasedControllerServiceLookup.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-site-to-site-reporting-bundle/nifi-site-to-site-reporting-task/src/main/java/org/apache/nifi/reporting/SiteToSiteStatusReportingTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/DebugFlow.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/InvokeHTTP.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kite-bundle/nifi-kite-processors/src/main/java/org/apache/nifi/processors/kite/ConvertAvroSchema.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-aws-bundle/nifi-aws-processors/src/test/java/org/apache/nifi/processors/aws/s3/encryption/TestStandardS3EncryptionService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kafka-bundle/nifi-kafka-0-11-processors/src/main/java/org/apache/nifi/processors/kafka/pubsub/KafkaProcessorUtils.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/PutSyslog.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/ListenTCP.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-site-to-site-reporting-bundle/nifi-site-to-site-reporting-task/src/main/java/org/apache/nifi/reporting/SiteToSiteProvenanceReportingTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-aws-bundle/nifi-aws-abstract-processors/src/main/java/org/apache/nifi/processors/aws/AbstractAWSProcessor.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-redis-bundle/nifi-redis-extensions/src/main/java/org/apache/nifi/redis/service/RedisConnectionPoolService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-jms-bundle/nifi-jms-processors/src/main/java/org/apache/nifi/jms/cf/JndiJmsConnectionFactoryProvider.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-aws-bundle/nifi-aws-processors/src/test/java/org/apache/nifi/processors/aws/s3/ITPutS3Object.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-graph-bundle/nifi-other-graph-services/src/main/java/org/apache/nifi/graph/AbstractTinkerpopClientService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-sql-reporting-bundle/nifi-sql-reporting-tasks/src/test/java/org/apache/nifi/reporting/sql/TestQueryNiFiReportingTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kafka-bundle/nifi-kafka-2-0-processors/src/main/java/org/apache/nifi/processors/kafka/pubsub/KafkaProcessorUtils.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/ListenRELP.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-scripting-bundle/nifi-scripting-processors/src/main/java/org/apache/nifi/reporting/script/ScriptedReportingTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/PutEmail.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-system-tests/nifi-system-test-extensions-bundle/nifi-system-test-extensions/src/main/java/org/apache/nifi/processors/tests/system/Sleep.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-elasticsearch-bundle/nifi-elasticsearch-client-service/src/main/java/org/apache/nifi/elasticsearch/ElasticSearchLookupService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-metrics-reporting-bundle/nifi-metrics-reporting-task/src/main/java/org/apache/nifi/metrics/reporting/task/MetricsReportingTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/JoltTransformJSON.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-scripting-bundle/nifi-scripting-processors/src/test/java/org/apache/nifi/record/sink/script/ScriptedRecordSinkTest.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kafka-bundle/nifi-kafka-2-0-processors/src/main/java/org/apache/nifi/processors/kafka/pubsub/PublishKafkaRecord_2_0.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-aws-bundle/nifi-aws-abstract-processors/src/main/java/org/apache/nifi/processors/aws/wag/AbstractAWSGatewayApiProcessor.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-api/src/main/java/org/apache/nifi/controller/AbstractControllerService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-services/nifi-ssl-context-bundle/nifi-ssl-context-service/src/main/java/org/apache/nifi/ssl/StandardSSLContextService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-atlas-bundle/nifi-atlas-reporting-task/src/main/java/org/apache/nifi/atlas/reporting/ReportLineageToAtlas.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/MergeRecord.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-registry-bundle/nifi-registry-service/src/main/java/org/apache/nifi/schemaregistry/services/AvroSchemaRegistry.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-azure-bundle/nifi-azure-processors/src/main/java/org/apache/nifi/processors/azure/storage/queue/GetAzureQueueStorage.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-extension-utils/nifi-processor-utils/src/main/java/org/apache/nifi/processor/util/bin/BinFiles.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/ListenUDP.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-datadog-bundle/nifi-datadog-reporting-task/src/main/java/org/apache/nifi/reporting/datadog/DataDogReportingTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/DistributeLoad.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-gcp-bundle/nifi-gcp-processors/src/main/java/org/apache/nifi/processors/gcp/bigquery/AbstractBigQueryProcessor.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kafka-bundle/nifi-kafka-2-0-processors/src/test/java/org/apache/nifi/record/sink/kafka/TestKafkaRecordSink_2_0.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-slack-bundle/nifi-slack-processors/src/main/java/org/apache/nifi/processors/slack/PostSlack.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-enrich-bundle/nifi-enrich-processors/src/main/java/org/apache/nifi/processors/enrich/QueryWhois.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-email-bundle/nifi-email-processors/src/main/java/org/apache/nifi/processors/email/ListenSMTP.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-reporting-tasks/src/main/java/org/apache/nifi/controller/MonitorMemory.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/ValidateCsv.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kafka-bundle/nifi-kafka-1-0-processors/src/main/java/org/apache/nifi/processors/kafka/pubsub/PublishKafka_1_0.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-rules-action-handler-bundle/nifi-rules-action-handler-service/src/main/java/org/apache/nifi/rules/handlers/ActionHandlerLookup.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-hbase-bundle/nifi-hbase-processors/src/main/java/org/apache/nifi/hbase/ScanHBase.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-elasticsearch-bundle/nifi-elasticsearch-processors/src/main/java/org/apache/nifi/processors/elasticsearch/PutElasticsearchHttpRecord.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-services/nifi-lookup-services-bundle/nifi-lookup-services/src/main/java/org/apache/nifi/lookup/SimpleKeyValueLookupService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-azure-bundle/nifi-azure-processors/src/main/java/org/apache/nifi/processors/azure/storage/queue/PutAzureQueueStorage.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-mongodb-bundle/nifi-mongodb-processors/src/main/java/org/apache/nifi/processors/mongodb/gridfs/DeleteGridFS.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/util/HTTPUtils.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-azure-bundle/nifi-azure-reporting-task/src/main/java/org/apache/nifi/reporting/azure/loganalytics/AzureLogAnalyticsProvenanceReportingTask.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-hive-bundle/nifi-hive-processors/src/main/java/org/apache/nifi/processors/hive/PutHiveStreaming.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-scripting-bundle/nifi-scripting-processors/src/main/java/org/apache/nifi/script/ScriptingComponentHelper.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-site-to-site-reporting-bundle/nifi-site-to-site-reporting-task/src/main/java/org/apache/nifi/reporting/s2s/SiteToSiteUtils.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-hive-bundle/nifi-hive-processors/src/main/java/org/apache/nifi/dbcp/hive/HiveConnectionPool.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-spring-bundle/nifi-spring-processors/src/main/java/org/apache/nifi/spring/SpringContextProcessor.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-services/nifi-record-serialization-services-bundle/nifi-record-serialization-services/src/main/java/org/apache/nifi/csv/CSVReader.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-services/nifi-hbase_2-client-service-bundle/nifi-hbase_2-client-service/src/main/java/org/apache/nifi/hbase/HBase_2_ClientService.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-kafka-bundle/nifi-kafka-1-0-processors/src/main/java/org/apache/nifi/record/sink/kafka/KafkaRecordSink_1_0.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-elasticsearch-bundle/nifi-elasticsearch-processors/src/main/java/org/apache/nifi/processors/elasticsearch/PutElasticsearchHttp.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-aws-bundle/nifi-aws-processors/src/main/java/org/apache/nifi/processors/aws/s3/FetchS3Object.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/GetHTTP.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-mongodb-bundle/nifi-mongodb-processors/src/main/java/org/apache/nifi/processors/mongodb/PutMongo.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/ReplaceText.java"
+    }, {
+      "@type" : "item",
+      "name" : "nifi-nar-bundles/nifi-azure-bundle/nifi-azure-reporting-task/src/main/java/org/apache/nifi/reporting/azure/loganalytics/AzureLogAnalyticsReportingTask.java"
+    } ]
+  } ]
+}
